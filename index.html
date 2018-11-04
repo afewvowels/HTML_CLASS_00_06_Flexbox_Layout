@@ -1,0 +1,132 @@
+<!doctype html>
+
+<html>
+<head>
+  <title>11 October 2018</title>
+  <meta charset='utf-8' />
+  <link rel='stylesheet' href='./css/style.css' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src='./js/scripts.js' type='text/javascript' defer></script>
+</head>
+
+<body>
+  <section id='main_wrapper_section'>
+    <h2>Flexbox Form</h2>
+
+    <section id='form_section'>
+      <form id='form'
+        <fieldset>
+          <legend>Fieldset</legend>
+          <!--This is a text field input-->
+          <p>
+            <label for="full_name" class='input_label'>Full name:</label>
+            <input type='text' size='20' maxlength='40' name='full_name' id='full_name' class='input_entry_form' placeholder='Your name here' required title='Please enter your name here' autocomplete pattern='.{2,20}' />
+          </p>
+
+          <!--This is a password field input-->
+          <p>
+            <label for="password_field" class='input_label'>Password field:</label>
+            <input type='password' size='20' maxlength='20' name='password_field' id='password_field' class='input_entry_form' placeholder='Your password here' required title='Please enter your password here' autocomplete pattern='[A-Za-z]{2,20}' />
+          </p>
+
+          <p>
+            <label class='input_label'>Comments:</label>
+            <textarea placeholder='Enter comments here.' id='textarea' class='input_entry_form'></textarea>
+          </p>
+
+          <p>
+            <label class=''>Option #1:
+              <input type='checkbox' name='option_one' id='option_one' class='checkbox'>
+            </label>
+            <label class=''>Option #2:
+              <input type='checkbox' name='option_two' id='option_two' class='checkbox'>
+            </label>
+            <label class=''>Option #3:
+              <input type='checkbox' name='option_three' id='option_three' class='checkbox'>
+            </label>
+          </p>
+
+          <!--This is a email entry field-->
+          <p>
+            <label for="email_field" class='input_label'>Email field:</label>
+            <input type='email' size='20' maxlength='40' name='email_field' id='email_field' class='input_entry_form' placeholder='email@domain.com' title='Please enter your email here' required />
+          </p>
+          <!--These are the submit and reset button inputs-->
+          <p id='button_container'>
+            <input type='submit' name='submit_button' id='submit_button' class='button' value='Submit' />
+            <input type='reset' name='reset_button' id='reset_button' class='button' value='Reset' />
+          </p>
+        </fieldset>
+      </form>
+    </section>
+  </section>
+
+  <section>
+    <form id='flex_form'>
+      <p>
+        <label for="full_name" class=''>Full name:</label>
+        <input type='text' size='20' maxlength='40' name='full_name' id='full_name' class='' placeholder='Your name here' required title='Please enter your name here' autocomplete pattern='.{2,20}' />
+      </p>
+
+      <!--This is a password field input-->
+      <p>
+        <label for="password_field" class=''>Password field:</label>
+        <input type='password' size='20' maxlength='20' name='password_field' id='password_field' class='' placeholder='Your password here' required title='Please enter your password here' autocomplete pattern='[A-Za-z]{2,20}' />
+      </p>
+
+      <p>
+        <label class=''>Comments:</label>
+        <textarea placeholder='Enter comments here.' id='textarea' class=''></textarea>
+      </p>
+
+      <p>
+        <label>Radio buttons</label>
+        <span>
+          <label class=''>Option #1:<input type='radio' name='option_one' id='option_one' class='checkbox'></label>
+          <label class=''>Option #1:<input type='radio' name='option_two' id='option_two' class='checkbox'></label>
+          <label class=''>Option #1:<input type='radio' name='option_three' id='option_three' class='checkbox'></label>
+          <label class=''>Option #1:<input type='radio' name='option_four' id='option_four' class='checkbox'></label>
+          <label class=''>Option #1:<input type='radio' name='option_five' id='option_five' class='checkbox'></label>
+          <label class=''>Option #1:<input type='radio' name='option_six' id='option_six' class='checkbox'></label>
+          <label class=''>Option #1:<input type='radio' name='option_seven' id='option_seven' class='checkbox'></label>
+        </span>
+      </p>
+
+      <p>
+        <label>Checkboxes:</label>
+        <span>
+          <label class=''>Option #1:
+            <input type='checkbox' name='option_one' id='option_one' class='checkbox'>
+          </label>
+          <label class=''>Option #2:
+            <input type='checkbox' name='option_two' id='option_two' class='checkbox'>
+          </label>
+          <label class=''>Option #3:
+            <input type='checkbox' name='option_three' id='option_three' class='checkbox'>
+          </label>
+          <label class=''>Option #1:
+            <input type='checkbox' name='option_one' id='option_one' class='checkbox'>
+          </label>
+          <label class=''>Option #2:
+            <input type='checkbox' name='option_two' id='option_two' class='checkbox'>
+          </label>
+          <label class=''>Option #3:
+            <input type='checkbox' name='option_three' id='option_three' class='checkbox'>
+          </label>
+        </span>
+      </p>
+
+      <!--This is a email entry field-->
+      <p>
+        <label for="email_field" class=''>Email field:</label>
+        <input type='email' size='20' maxlength='40' name='email_field' id='email_field' class='' placeholder='email@domain.com' title='Please enter your email here' required />
+      </p>
+      <!--These are the submit and reset button inputs-->
+      <p id='button_container_2'>
+        <input type='submit' name='submit_button' id='submit_button' class='' value='Submit' />
+        <input type='reset' name='reset_button' id='reset_button' class='' value='Reset' />
+      </p>
+    </form>
+  </section>
+</body>
+</html>
